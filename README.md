@@ -1,4 +1,3 @@
-````markdown
 # ProtoVoid
 
 Simple browser-console tools for extracting and saving decoded record information from supported result pages.
