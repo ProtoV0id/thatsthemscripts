@@ -1,4 +1,4 @@
-# thatsthemscripts
+````markdown
 # ProtoVoid
 
 Simple browser-console tools for extracting and saving decoded record information from supported result pages.
@@ -64,24 +64,29 @@ Example:
     }
   ]
 }
-```
-How to use
-Open the result page in your browser.
-Press F12.
-Open the Console tab.
-Paste the JSON download script.
-Press Enter.
-A file named people_results.json will download automatically.
+````
+
+### How to use
+
+1. Open the result page in your browser.
+2. Press `F12`.
+3. Open the **Console** tab.
+4. Paste the JSON download script.
+5. Press `Enter`.
+6. A file named `people_results.json` will download automatically.
 
 The JSON file is useful for importing the extracted data into:
 
-Python scripts
-JavaScript tools
-Databases
-OSINT workflows
-Other analysis tools
-Notes
+* Python scripts
+* JavaScript tools
+* Databases
+* OSINT workflows
+* Other analysis tools
 
-The scripts work with information already loaded in the browser and decode supported Base64 x-href values found in the page.
+---
+
+## Notes
+
+The scripts work with information already loaded in the browser and decode supported Base64 `x-href` values found in the page.
 
 Run the script separately on each page you want to export.
