@@ -64,6 +64,7 @@ Example:
     }
   ]
 }
+```
 How to use
 Open the result page in your browser.
 Press F12.
